@@ -99,10 +99,10 @@ const Sidebar = ({sidebarOpen, setSidebarOpen, home_three}) => {
                         </div>
                     </div>
                     <div className="offcanvas__social"> 
-                        <a className="icon facebook" href="#"><i className="fab fa-facebook-f"></i></a>
-                        <a className="icon twitter" href="#"><i className="fab fa-twitter"></i></a>
-                        <a className="icon youtube" href="#"><i className="fab fa-youtube"></i></a>
-                        <a className="icon linkedin" href="#"><i className="fab fa-linkedin"></i></a>
+                        <a className="icon facebook" href="https://www.facebook.com/AvonimpexLLC/"><i className="fab fa-facebook-f"></i></a>
+                        {/* <a className="icon twitter" href="#"><i className="fab fa-twitter"></i></a> */}
+                        {/* <a className="icon youtube" href="#"><i className="fab fa-youtube"></i></a> */}
+                        <a className="icon linkedin" href="https://www.linkedin.com/company/avon-impex-llc/about/?viewAsMember=true"><i className="fab fa-linkedin"></i></a>
                     </div>
                 </div>
                 </div>

@@ -13,8 +13,8 @@ const ContactArea = () => {
                         <div className="tp-contact-wrapper">
                             <div className="tp-contact-title-wrapper">
                             <h3 className="tp-contact-title">Contact <span className="title-color">With us</span></h3> 
-                            <p>Email, call, or complete the form to learn how Kion can <br /> 
-                             solve your cloud management and governance cha.</p>
+                            <p>Email, call, or fill out the form to discover how Avon can <br /> 
+                            address your cleaning supplies challenges.</p>
                             </div>
                             <div className="tp-contact-content">
                             <div className="tp-contact-content-mail d-flex align-items-center">
@@ -23,7 +23,7 @@ const ContactArea = () => {
                                         <EmailIconOne /> 
                                     </span>
                                 </div>
-                                <h3 className="tp-contact-item-title"><a href="mailto:@themepure.gmail.com">thepureingsai.co.uk</a></h3>
+                                <h3 className="tp-contact-item-title"><a href="mailto:info@avonimpex.com">info@avonimpex.com</a></h3>
                             </div>
                             <div className="tp-contact-content-phone d-flex align-items-center">
                                 <div className="tp-contact-content-phone-icon">
@@ -32,7 +32,7 @@ const ContactArea = () => {
                                     </span>
                                 </div>
                                 <h3 className="tp-contact-item-title">
-                                    <a href="tel:9266688000">+880 123 456 789 , 99875</a>
+                                    <a href="tel:+971-54-756-3743">+971-54-756-3743</a>
                                 </h3>
                             </div>
                             <div className="tp-contact-location-wrapper d-flex">
@@ -41,14 +41,14 @@ const ContactArea = () => {
                                         Office Location
                                         <i className="fa-regular fa-arrow-down"></i>
                                     </h3>
-                                    <p>4517 Washington Ave. Manch ester, Kentucky 39495</p>
+                                    <p>27428, DUBAI UAE</p>
                                 </div>
-                                <div className="tp-contact-location">
+                                {/* <div className="tp-contact-location">
                                     <h3 className="tp-contact-location-title">
                                         Office Location {" "}
                                     <i className="fa-regular fa-arrow-down"></i></h3>
                                     <p>4517 Washington Ave. Manch ester, Kentucky 39495</p>
-                                </div>
+                                </div> */}
                             </div>
                             </div>
                         </div>

@@ -1,11 +1,11 @@
 import Image from 'next/image';
-// import AngleArrow from "@/src/svg/angle-arrow";
+import AngleArrow from "@/src/svg/angle-arrow";
 import LineArrow from "@/src/svg/line-arrow";
 import Link from "next/link";
-import SwiperCore, { Navigation, EffectFade } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/swiper-bundle.css';
-SwiperCore.use([Navigation, EffectFade]);
+import { EffectFade, Navigation } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+// import VideoPopup from "@/src/modals/video-popup";
+// import React, { useState, useEffect } from "react";
 import VideoPopup from "@/src/modals/video-popup";
 import React, { useState, useEffect } from "react";
 import shape_1 from "@assets/img/hero/shape-1.png";
@@ -37,7 +37,7 @@ const slider_data = [
     bg_img: "/assets/img/hero/hero-2.jpg",
     // sub_title_1: "best",
     // sub_title_2: "cleaning services",
-    hero_title_1: "platform of",
+    hero_title_1: "platform for",
     hero_title_2: "Cleaning",
     hero_support: "supplies",
   },
@@ -46,7 +46,7 @@ const slider_data = [
     bg_img: "/assets/img/hero/hero-1.jpg",
     // sub_title_1: "best",
     // sub_title_2: "cleaning services",
-    hero_title_1: "platform of",
+    hero_title_1: "Trusted for best",
     hero_title_2: "Cleaning",
     hero_support: "supplies",
   },
@@ -55,9 +55,9 @@ const slider_data = [
     bg_img: "/assets/img/hero/hero-3.jpg",
     // sub_title_1: "best",
     // sub_title_2: "cleaning services",
-    hero_title_1: "platform of",
-    hero_title_2: "Cleaning",
-    hero_support: "supplies",
+    hero_title_1: "Cleaning",
+    hero_title_2: "Supplies",
+    hero_support: "Bundle",
   },
 ];
 // shapes 
@@ -109,7 +109,7 @@ const HeroSlider = () => {
                                   </span>
                                   <AngleArrow />
                                 </span> */}
-                                <h3 className="tp-hero-title" style={{fontSize:'63px'}}>
+                                <h3 className="tp-hero-title" style={{fontSize:'55px'}}>
                                   {item.hero_title_1} <LineArrow />
                                   <span className="title-color">
                                     {item.hero_title_2}

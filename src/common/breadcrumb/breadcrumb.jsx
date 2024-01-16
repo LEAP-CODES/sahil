@@ -18,12 +18,12 @@ const Breadcrumb = ({top_title = "Our Company", page_title = "Our Company"}) => 
                   {top_title}
                   <Image src={breadcrumb_img} alt="theme-pure" />
                 </h3>
-                <div className="breadcrumb__list breadcrumb__list-translate">
-                  <span> <Link href="/">Home</Link> </span>
-                  <span className="dvdr"><i className="fa-regular fa-angle-right"></i></span>
-                  <span>pages</span>
-                  <span className="dvdr"> <i className="fa-regular fa-angle-right"></i> </span>
-                  <span>{page_title}</span>
+                <div className="breadcrumb__list breadcrumb__list-translate" >
+                  <span style={{color:"white"}}> <Link href="/">Home</Link> </span>
+                  {/* <span className="dvdr"><i className="fa-regular fa-angle-right"></i></span>
+                  <span>pages</span> */}
+                  <span className="dvdr" style={{color:"white"}}> <i className="fa-regular fa-angle-right"></i> </span>
+                  <span style={{color:"white"}}>{page_title}</span>
                 </div>
               </div>
             </div>

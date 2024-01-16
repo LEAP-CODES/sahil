@@ -130,7 +130,7 @@ const AboutArea = () => {
                                     best <span className="title-pre-color">cleaning supplies</span>
                                     <AngleArrow /> 
                                  </span>
-                                 <h3 className="tp-section-title" style={{fontSize:'50px'}}>Cleaning Supplies We’re Offering
+                                 <h3 className="tp-section-title" style={{fontSize:'50px'}}>What Sets Us Apart
                                     <span className="title-left-shape">
                                     <LineArrowTwo /> 
                                     </span>
@@ -174,10 +174,10 @@ const AboutArea = () => {
                                 )} 
                                 </Swiper> 
 
-                           <div className="tp-about-call" style={{width:'680px'}}>
+                           <div className="tp-about-call" style={{width:'700px'}}>
                               <a href="tel:01310-069824">
                                  <p><i className="fa-solid fa-phone"></i> 
-                                 Provided cleaning supplies to hundreds customers <span>+971-54-756-3743</span></p>
+                                 Provided cleaning supplies to hundreds of customers <span>+971-54-756-3743</span></p>
                               </a>
                            </div>
 

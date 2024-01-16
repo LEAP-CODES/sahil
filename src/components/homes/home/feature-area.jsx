@@ -56,7 +56,7 @@ const FeatureArea = ({about}) => {
                            feature <span className="title-pre-color">IT Solutions</span>
                            <AngleArrow />
                         </span> */}
-                        <h3 className="tp-section-title">We’ve Been Thriving In <span className="title-color">38 Years</span>
+                        <h3 className="tp-section-title">We’ve Been Thriving In <span className="title-color">30 Years</span>
                            <span className="title-right-shape"> 
                               <LineArrowFive />
                            </span>
@@ -65,8 +65,8 @@ const FeatureArea = ({about}) => {
                   </div>
                   <div className="col-lg-6">
                      <div className="tp-feature-wrapper p-relative">
-                        <p>As the complexity of buildings to increase, the field of architecture <br />
-                         became multi-disciplinary with technological expertise.</p>
+                        <p>Connecting the World to Cleaner Horizons: <br />
+                        Your Global Source for Premium Cleaning Solutions</p>
                      </div>
                   </div>
                </div>
