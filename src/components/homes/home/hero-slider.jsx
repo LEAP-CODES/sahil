@@ -35,8 +35,8 @@ const slider_data = [
   {
     id: 1,
     bg_img: "/assets/img/hero/hero-2.jpg",
-    sub_title_1: "best",
-    sub_title_2: "cleaning services",
+    // sub_title_1: "best",
+    // sub_title_2: "cleaning services",
     hero_title_1: "platform for",
     hero_title_2: "Cleaning",
     hero_support: "supplies",
@@ -44,8 +44,8 @@ const slider_data = [
   {
     id: 2,
     bg_img: "/assets/img/hero/hero-1.jpg",
-    sub_title_1: "best",
-    sub_title_2: "cleaning services",
+    // sub_title_1: "best",
+    // sub_title_2: "cleaning services",
     hero_title_1: "Trusted for best",
     hero_title_2: "Cleaning",
     hero_support: "supplies",
@@ -53,8 +53,8 @@ const slider_data = [
   {
     id: 3,
     bg_img: "/assets/img/hero/hero-3.jpg",
-    sub_title_1: "best",
-    sub_title_2: "cleaning services",
+    // sub_title_1: "best",
+    // sub_title_2: "cleaning services",
     hero_title_1: "Cleaning",
     hero_title_2: "Supplies",
     hero_support: "Bundle",
