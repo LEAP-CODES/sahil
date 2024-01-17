@@ -9,7 +9,7 @@ const service_data = [
     {
         id: 1, 
         alphabet: "P",
-        title: <>Product <br /> development</>,
+        title: <>Enzyme Based <br /> Green chemicals</>,
         img: service_img_1,
         description: <>As far as we might be concerned making an extraordinary As the complexity as </>,        
 
@@ -17,7 +17,7 @@ const service_data = [
     {
         id: 2, 
         alphabet: "V",
-        title: <>Voice Over <br /> Internet Protocol</>,
+        title: <>Performance <br /> coating solutions</>,
         img: service_img_2,
         description: <>As far as we might be concerned making an extraordinary As the complexity as </>,       
 
@@ -25,7 +25,7 @@ const service_data = [
     {
         id: 3, 
         alphabet: "C",
-        title: <>Clouds <br /> Backup Services</>,
+        title: <>Stone care and <br /> Floor Restoration</>,
         img: service_img_3,
         description: <>As far as we might be concerned making an extraordinary As the complexity as </>,        
 
@@ -33,7 +33,7 @@ const service_data = [
     {
         id: 4, 
         alphabet: "M",
-        title: <>Mobile and <br /> Remote Networking</>,
+        title: <>Food Industry <br /> Cleaning Tools</>,
         img: service_img_4,
         description: <>As far as we might be concerned making an extraordinary As the complexity as </>,        
 
@@ -41,7 +41,7 @@ const service_data = [
     {
         id: 5, 
         alphabet: "D",
-        title: <>Data Backup <br /> and Restoration</>,
+        title: <>Machines  <br /> and Janitorials</>,
         img: service_img_2,
         description: <>As far as we might be concerned making an extraordinary As the complexity as </>,        
 

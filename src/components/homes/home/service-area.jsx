@@ -105,11 +105,11 @@ const ServiceArea = () => {
 
                         <div className="col-lg-12">
                            <div className="tp-service-title-wrapper text-center">
-                              <span className="tp-section-title__pre">
+                              {/* <span className="tp-section-title__pre">
                                  service <span className="title-pre-color">IT Solutions</span> 
                                  <AngleArrow />                                 
-                              </span>
-                              <h3 className="tp-section-title">All Professional <i>IT Solutions</i> & Services
+                              </span> */}
+                              <h3 className="tp-section-title">Our <i>Products &</i>  Services
                                  <span className="title-center-shape"> 
                                     <LineArrowTwo />
                                  </span> 
@@ -147,7 +147,7 @@ const ServiceArea = () => {
                      <div className="row">
                         <div className="col-lg-12">
                            <div className="tp-service-all-btn text-center fadeUp">
-                              <Link className="tp-btn" href="/service-details">View all Services</Link>
+                              <Link className="tp-btn" href="/service-details">View all Products</Link>
                            </div>
                         </div>
                      </div>
