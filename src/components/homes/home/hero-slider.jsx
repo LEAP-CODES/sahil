@@ -102,13 +102,13 @@ const HeroSlider = () => {
                           <div className="col-lg-7">
                             <div className="tp-hero-content p-relative">
                               <div className="tp-hero-title-wrapper">
-                                { <span className="tp-section-title__pre p-relative" style={{fontSize:'50px'}}>
+                                {/* { <span className="tp-section-title__pre p-relative" style={{fontSize:'50px'}}>
                                   {item.sub_title_1}{" "}
                                   <span className="title-pre-color">
                                     {item.sub_title_2}
                                   </span>
                                   <AngleArrow />
-                                  </span>}
+                                  </span>} */}
                                 <h3 className="tp-hero-title" style={{fontSize:'55px'}}>
                                   {item.hero_title_1} <LineArrow />
                                   <span className="title-color">
