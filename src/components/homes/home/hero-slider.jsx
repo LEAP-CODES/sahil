@@ -22,7 +22,7 @@ const setting = {
   spaceBetween: 0, 
   effect: "fade",
   autoplay: {
-    delay: 3000,
+    delay: 5000,
   },
   // Navigation arrows
   navigation: {
@@ -35,8 +35,8 @@ const slider_data = [
   {
     id: 1,
     bg_img: "/assets/img/hero/hero-2.jpg",
-    // sub_title_1: "best",
-    // sub_title_2: "cleaning services",
+    sub_title_1: "best",
+    sub_title_2: "cleaning services",
     hero_title_1: "platform for",
     hero_title_2: "Cleaning",
     hero_support: "supplies",
@@ -44,8 +44,8 @@ const slider_data = [
   {
     id: 2,
     bg_img: "/assets/img/hero/hero-1.jpg",
-    // sub_title_1: "best",
-    // sub_title_2: "cleaning services",
+    sub_title_1: "best",
+    sub_title_2: "cleaning services",
     hero_title_1: "Trusted for best",
     hero_title_2: "Cleaning",
     hero_support: "supplies",
@@ -53,8 +53,8 @@ const slider_data = [
   {
     id: 3,
     bg_img: "/assets/img/hero/hero-3.jpg",
-    // sub_title_1: "best",
-    // sub_title_2: "cleaning services",
+    sub_title_1: "best",
+    sub_title_2: "cleaning services",
     hero_title_1: "Cleaning",
     hero_title_2: "Supplies",
     hero_support: "Bundle",
@@ -70,7 +70,7 @@ const shapes = [
 ]
 
 const HeroSlider = () => {
-  const [isLoop, setIsLoop] = useState(true);
+  const [isLoop, setIsLoop] = useState(false);
     useEffect(() => {
      setIsLoop(true)
     }, [])
@@ -102,13 +102,13 @@ const HeroSlider = () => {
                           <div className="col-lg-7">
                             <div className="tp-hero-content p-relative">
                               <div className="tp-hero-title-wrapper">
-                                {/* <span className="tp-section-title__pre p-relative" style={{fontSize:'30px'}}>
+                                { <span className="tp-section-title__pre p-relative" style={{fontSize:'50px'}}>
                                   {item.sub_title_1}{" "}
                                   <span className="title-pre-color">
                                     {item.sub_title_2}
                                   </span>
                                   <AngleArrow />
-                                </span> */}
+                                  </span>}
                                 <h3 className="tp-hero-title" style={{fontSize:'55px'}}>
                                   {item.hero_title_1} <LineArrow />
                                   <span className="title-color">
