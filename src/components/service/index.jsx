@@ -18,8 +18,8 @@ const Sevice = () => {
             <ServiceArea />
             <VideoArea service={true}/>
             <IndustryArea service={true} />
-            <BrandArea service={true} />
-            <BlogArea service={true} />
+            {/* <BrandArea service={true} /> */}
+            {/* <BlogArea service={true} /> */}
             <FooterContact />
       </main>
       <FooterThree />
