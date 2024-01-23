@@ -4,54 +4,54 @@ import React, { useState } from 'react';
 // import VideoPopup from '@/src/modals/video-popup';
 // import ServiceContactForm from '@/src/forms/service-contact-form';
 // import service_details_thumb from  "@assets/img/services/service-details/img-1.jpg";
-import service_video_thumb from  "@assets/img/services/service-details/img-2.jpg";
+import service_video_thumb from "@assets/img/services/service-details/img-2.jpg";
 // import RightSymbol from '@/src/svg/right-symbol';
 // import accordion from '@/src/data/accordion';
 
 const service_details_content = {
-    service_details_tab: [
-        {id: 1, title: "Enzyme Based Green chemicals", active: "active"},
-        {id: 2, title: "Performance coating solutions", active: ""},
-        {id: 3, title: "Stone care and Floor Restoration", active: ""},
-        {id: 4, title: "Food Industry Cleaning Tools", active: ""},
-        {id: 5, title: "Janitorials", active: ""},
-        {id: 6, title: "Machines", active: ""},
-        {id: 7, title: "Microfibers", active: ""},
-        {id: 8, title: "Professional Hygeine and Health solution", active: ""},
-    ],
-    title: <>Enzyme Based Green chemicals</>,
-    description: <>Enzyme-based cleaners are derived from natural sources, making them a
-    sustainable choice for eco-conscious individuals. Unlike harsh chemical
-    cleaners, enzyme-based alternatives are biodegradable and non-toxic,
-    reducing the environmental impact</>,
-    title_2: <>Why use enzyme-based cleaner ?</>,
-    description_2: <>Safer for users and the environment. Compared to other chemical cleaning
-    products, enzyme-based cleaners are safer. Unlike chemical-based acidic and
-    alkaline cleaners, enzyme-based cleaners are very specific in action and have
-    no unintended side effects.
-    </>,
+   service_details_tab: [
+      { id: 1, title: "Enzyme Based Green chemicals", active: "active", route: "/about" },
+      { id: 2, title: "Performance coating solutions", active: "", route: "/about" },
+      { id: 3, title: "Stone care and Floor Restoration", active: "", route: "/about" },
+      { id: 4, title: "Food Industry Cleaning Tools", active: "", route: "/about" },
+      { id: 5, title: "Janitorials", active: "", route: "/about" },
+      { id: 6, title: "Machines", active: "", route: "/about" },
+      { id: 7, title: "Microfibers", active: "", route: "/about" },
+      { id: 8, title: "Professional Hygeine and Health solution", active: "", route: "/about" },
+   ],
+   title: <>Enzyme Based Green chemicals</>,
+   description: <>Enzyme-based cleaners are derived from natural sources, making them a
+      sustainable choice for eco-conscious individuals. Unlike harsh chemical
+      cleaners, enzyme-based alternatives are biodegradable and non-toxic,
+      reducing the environmental impact</>,
+   title_2: <>Why use enzyme-based cleaner ?</>,
+   description_2: <>Safer for users and the environment. Compared to other chemical cleaning
+      products, enzyme-based cleaners are safer. Unlike chemical-based acidic and
+      alkaline cleaners, enzyme-based cleaners are very specific in action and have
+      no unintended side effects.
+   </>,
    //  feture_list: [
    //      <>Research beyond the business plan</>,
    //      <>Marketing options and rates</>,
    //      <>The ability to turnaround consulting</>,
    //  ],
-    description_3: <>Need something changed or is there something not quite working the way you envisaged? Is your van a
-    little old and tired and need refreshing? Lorem Ipsum is simply dummy text of the printing and typesetting
-    industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an
-    unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not
-    only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</>,
+   description_3: <>Need something changed or is there something not quite working the way you envisaged? Is your van a
+      little old and tired and need refreshing? Lorem Ipsum is simply dummy text of the printing and typesetting
+      industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an
+      unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not
+      only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</>,
 
 
 }
-const {service_details_tab, title, description, title_2, description_2, feture_list, description_3} = service_details_content
+const { service_details_tab, title, description, title_2, description_2, feture_list, description_3 } = service_details_content
 
 const ServiceDetailsArea = () => {
-  const [isVideoOpen, setIsVideoOpen] = useState(false);
-//   const [isActive, setIsActive] = useState(1)
+   const [isVideoOpen, setIsVideoOpen] = useState(false);
+   //   const [isActive, setIsActive] = useState(1)
 
-    return (
-        <>
-            <section className="tp-service-details-area pt-120 pb-120">
+   return (
+      <>
+         <section className="tp-service-details-area pt-120 pb-120">
             <div className="container">
                <div className="row">
                   <div className="col-lg-4">
@@ -60,13 +60,13 @@ const ServiceDetailsArea = () => {
                         <div className="tp-service-widget-item mb-40">
                            <div className="tp-service-widget-tab">
                               <ul>
-                                   {service_details_tab.map((item, i)  => 
+                                 {service_details_tab.map((item, i) =>
                                     <li key={i}>
-                                        <Link className={item.active} href="/service-details">
-                                        {item.title} <i className="fa-regular fa-arrow-right-long"></i>
-                                        </Link>
+                                       <Link className={item.active} href={item.route}>
+                                          {item.title} <i className="fa-regular fa-arrow-right-long"></i>
+                                       </Link>
                                     </li>
-                                    )}
+                                 )}
                               </ul>
                            </div>
                         </div>
@@ -151,15 +151,15 @@ const ServiceDetailsArea = () => {
             </div>
          </section>
 
-            {/* video modal start */}
-            {/* <VideoPopup 
+         {/* video modal start */}
+         {/* <VideoPopup 
                 isVideoOpen={isVideoOpen}
                 setIsVideoOpen={setIsVideoOpen}
                 videoId={"csnD5EVL5z8"}
             /> */}
-            {/* video modal end */}
-        </>
-    );
+         {/* video modal end */}
+      </>
+   );
 };
 
 export default ServiceDetailsArea;
