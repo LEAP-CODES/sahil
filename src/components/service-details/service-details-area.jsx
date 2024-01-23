@@ -19,18 +19,22 @@ const service_details_content = {
         {id: 7, title: "Microfibers", active: ""},
         {id: 8, title: "Professional Hygeine and Health solution", active: ""},
     ],
-    title: <>Digital Marketing</>,
-    description: <>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat qui ducimus illum modi?  perspiciatis
-    accusamus soluta perferendis, ad illum, nesciunt, reiciendis iusto et cupidit Repudiandae provident to
-    consectetur, sapiente, libero iure necessitatibus corporis nulla voluptate, quisquam aut perspiciatis?
-    Fugiat labore aspernatur eius, perspiciatis ut molestiae, delectus rem.</>,
-    title_2: <>Why Marketing Important ?</>,
-    description_2: <>Lorem ipsum dolor sit amet, consectetur adipisici sed do eiusmod tempor incididunt ut labore et </>,
-    feture_list: [
-        <>Research beyond the business plan</>,
-        <>Marketing options and rates</>,
-        <>The ability to turnaround consulting</>,
-    ],
+    title: <>Enzyme Based Green chemicals</>,
+    description: <>Enzyme-based cleaners are derived from natural sources, making them a
+    sustainable choice for eco-conscious individuals. Unlike harsh chemical
+    cleaners, enzyme-based alternatives are biodegradable and non-toxic,
+    reducing the environmental impact</>,
+    title_2: <>Why use enzyme-based cleaner ?</>,
+    description_2: <>Safer for users and the environment. Compared to other chemical cleaning
+    products, enzyme-based cleaners are safer. Unlike chemical-based acidic and
+    alkaline cleaners, enzyme-based cleaners are very specific in action and have
+    no unintended side effects.
+    </>,
+   //  feture_list: [
+   //      <>Research beyond the business plan</>,
+   //      <>Marketing options and rates</>,
+   //      <>The ability to turnaround consulting</>,
+   //  ],
     description_3: <>Need something changed or is there something not quite working the way you envisaged? Is your van a
     little old and tired and need refreshing? Lorem Ipsum is simply dummy text of the printing and typesetting
     industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an
@@ -101,11 +105,11 @@ const ServiceDetailsArea = () => {
                               <div className="tp-service-details-list">
                                  <h3 className="tp-service-details-title">{title_2}</h3>
                                  <p>{description_2}</p>
-                                 <ul>
+                                 {/* <ul>
                                     {feture_list.map((item, i) => 
                                     <li key={i}><span> <RightSymbol /></span>{item}</li> 
                                     )} 
-                                 </ul>
+                                 </ul> */}
                               </div>
                            </div>
                         </div>
