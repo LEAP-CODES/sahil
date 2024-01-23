@@ -66,7 +66,7 @@ const FeatureArea = ({about}) => {
                   <div className="col-lg-6">
                      <div className="tp-feature-wrapper p-relative">
                         <p>Connecting the World to Cleaner Horizons: <br />
-                        Your Global Source for Premium Cleaning Solutions</p>
+                        Your Global Source for Premium Cleaning Solutions </p>
                      </div>
                   </div>
                </div>

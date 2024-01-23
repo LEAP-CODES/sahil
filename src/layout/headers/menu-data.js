@@ -30,7 +30,7 @@ const menu_data = [
       { link: "/Performance-coating-solutions", title: "Performance coating solutions" }, 
       { link: "/Stone-care", title: "Stone care and Floor Restoration" },
       { link: "/Food-Industry-Cleaning-Tools", title: "Food Industry Cleaning Tools" },
-      { link: "/food_industry", title: "Food industry Cleaning Tools" },
+      // { link: "/food_industry", title: "Food industry Cleaning Tools" },
       { link: "janitorials", title: "Janitorials"},
       { link: "Machines", title: "Machines"},
       { link: "Microfibers", title: "Microfibers"},

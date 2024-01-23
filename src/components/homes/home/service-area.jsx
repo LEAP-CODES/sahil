@@ -29,22 +29,22 @@ import reload_img from "@assets/img/fun-fact/world.png";
       cls_2: "purecounter",
       icon: "+",
    },
-   {
-      id: 2, 
-      count: 255,
-      info: "square area",
-      cls: "purecounter",
-      cls_2: "",
-      icon: "",
-   },
-   {
-      id: 3, 
-      count: 310,
-      info: "square area",
-      cls: "purecounter",
-      cls_2: "",
-      icon: "",
-   },
+   // {
+   //    id: 2, 
+   //    count: 255,
+   //    info: "square area",
+   //    cls: "purecounter",
+   //    cls_2: "",
+   //    icon: "",
+   // },
+   // {
+   //    id: 3, 
+   //    count: 310,
+   //    info: "square area",
+   //    cls: "purecounter",
+   //    cls_2: "",
+   //    icon: "",
+   // },
   ]
 const ServiceArea = () => {
 
@@ -189,26 +189,30 @@ const ServiceArea = () => {
                         <div className="col-lg-6 col-md-12">
                            <div className="tp-fun-fact-content">
                               <div className="tp-fun-fact-title-wrapper">
-                                 <span className="tp-section-title__pre">
+                                 {/* <span className="tp-section-title__pre">
                                     service <span className="title-pre-color">IT Solutions</span> 
                                     <AngleArrow />
-                                 </span>
-                                 <h3 className="tp-section-title">Tech Change The World
+                                 </span> */}
+                                 <h3 className="tp-section-title">What Sets Us Apart !
                                     <span className="title-left-shape"> 
                                     <LineArrowTwo />
                                     </span>
                                  </h3>
                                  <p>
-                                    Our company provides a full range of services for the construction of <br /> private houses and cottages since 19
+                                 Welcome to Avon Impex LLC in Dubai! <br /> We are a leading company specializing in providing high-quality specialty cleaning products and procedures.
                                  </p>
                                  <ul>
                                     <li>
                                        <span> <GreenRightArrow /></span>
-                                       series of manual and semi-manual activities.
+                                       Innovation at the Core.
                                     </li>
                                     <li>
                                        <span><GreenRightArrow /> </span>
-                                       onstruction is different from other industries.
+                                       Sustainability in Practice.
+                                    </li>
+                                    <li>
+                                       <span><GreenRightArrow /> </span>
+                                       Comprehensive Solutions.
                                     </li>
                                  </ul>
                                  <div className="tp-fun-fact-btn">

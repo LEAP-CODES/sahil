@@ -2,20 +2,22 @@ import Link from 'next/link';
 import Image from 'next/image';
 import React, { useState } from 'react';
 import VideoPopup from '@/src/modals/video-popup';
-import ServiceContactForm from '@/src/forms/service-contact-form';
-import service_details_thumb from  "@assets/img/services/service-details/img-1.jpg";
+// import ServiceContactForm from '@/src/forms/service-contact-form';
+// import service_details_thumb from  "@assets/img/services/service-details/img-1.jpg";
 import service_video_thumb from  "@assets/img/services/service-details/img-2.jpg";
 import RightSymbol from '@/src/svg/right-symbol';
-import accordion from '@/src/data/accordion';
+// import accordion from '@/src/data/accordion';
 
 const service_details_content = {
     service_details_tab: [
-        {id: 1, title: "Consumer Product", active: "active"},
-        {id: 2, title: "Marketing Analysis", active: ""},
-        {id: 3, title: "Speed Optimization", active: ""},
-        {id: 4, title: "Email Marketing", active: ""},
-        {id: 5, title: "Marketing Analysis", active: ""},
-        {id: 6, title: "Media Marketing", active: ""},
+        {id: 1, title: "Enzyme Based Green chemicals", active: "active"},
+        {id: 2, title: "Performance coating solutions", active: ""},
+        {id: 3, title: "Stone care and Floor Restoration", active: ""},
+        {id: 4, title: "Food Industry Cleaning Tools", active: ""},
+        {id: 5, title: "Janitorials", active: ""},
+        {id: 6, title: "Machines", active: ""},
+        {id: 7, title: "Microfibers", active: ""},
+        {id: 8, title: "Professional Hygeine and Health solution", active: ""},
     ],
     title: <>Digital Marketing</>,
     description: <>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat qui ducimus illum modi?  perspiciatis
@@ -41,7 +43,7 @@ const {service_details_tab, title, description, title_2, description_2, feture_l
 
 const ServiceDetailsArea = () => {
   const [isVideoOpen, setIsVideoOpen] = useState(false);
-  const [isActive, setIsActive] = useState(1)
+//   const [isActive, setIsActive] = useState(1)
 
     return (
         <>
@@ -65,22 +67,22 @@ const ServiceDetailsArea = () => {
                            </div>
                         </div>
 
-                        <div className="tp-service-widget-item mb-40">
+                        {/* <div className="tp-service-widget-item mb-40">
                            <div className="tp-service-contact">
                               <div className="tp-service-contact-form">
                                 <ServiceContactForm />
                                  <p className="ajax-response"></p>
                               </div>
                            </div>
-                        </div>
+                        </div> */}
 
                      </div>
                   </div>
                   <div className="col-lg-8">
                      <div className="tp-service-details-wrapper">
-                        <div className="tp-service-details-thumb">
+                        {/* <div className="tp-service-details-thumb">
                            <Image src={service_details_thumb} alt="theme-pure" />
-                        </div>
+                        </div> */}
                         <h3 className="tp-service-details-title">{title}</h3>
                         <p>{description}</p>
                         <div className="row">
@@ -109,7 +111,7 @@ const ServiceDetailsArea = () => {
                         </div>
                         <p>{description_3}</p>
 
-                        <div className="tp-service-details-faq faq-style-1">
+                        {/* <div className="tp-service-details-faq faq-style-1">
                            <div className="tp-faq-tab-content tp-accordion">
                               <div className="accordion" id="general_accordion">
                                 {accordion.map((item, i) => 
@@ -137,7 +139,7 @@ const ServiceDetailsArea = () => {
                                 )} 
                                </div>
                            </div>
-                        </div>
+                        </div> */}
 
                      </div>
                   </div>

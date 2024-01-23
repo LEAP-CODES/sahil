@@ -14,12 +14,12 @@ import support_shape from "@assets/img/about/home-3/shape-1.png";
 
 const support_contact = {
    sub_title_1: "We’ve been stay",
-   sub_title_2: " 38 years",
-   info: <>Our company provides a full range of services for the <br /> construction of private houses and cottages since 19</>,
+   sub_title_2: " 30 years",
+   info: <>Welcome to Avon Impex LLC in Dubai! <br /> We are a leading company specializing in providing high-quality specialty cleaning products and procedures.</>,
    lists: [
-      <>series of manual and semi-manual activities.</>,
-      <>Construction is different from other industries.</>,
-      <>Construction is different from other industries.</>,
+      <>Innovation at the Core.</>,
+      <>Sustainability in Practice.</>,
+      <>Comprehensive Solutions.</>,
    ]
    
 }
@@ -36,7 +36,7 @@ const SupportArea = ()  => {
                <div className="col-lg-6">
                   <div className="tp-fun-fact-title-wrapper support-breadcrumb">
                      <span className="tp-section-title__pre">
-                        service <span className="title-pre-color">IT Solutions</span>
+                        Best <span className="title-pre-color">Cleaning Supplies</span>
                         <AngleArrow /> 
                      </span>
                      <h3 className="tp-section-title">
