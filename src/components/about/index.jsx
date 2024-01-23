@@ -28,7 +28,7 @@ const About = () => {
             <TestimonialFeature />
             <TestimonialArea />
             <BrandArea />
-            <TeamArea />
+            {/* <TeamArea /> */}
             {/* <BlogArea /> */}
             <FooterContact />
           </main>
