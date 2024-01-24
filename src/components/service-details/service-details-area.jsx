@@ -263,19 +263,6 @@ const ServiceDetailsArea = () => {
                                              </div>
                                           </div>
                                     </div>
-                                    <div class="col-xl-3 col-lg-6 col-md-6">
-                                          <div class="services-two__single">
-                                             <div class="services-two__img-box">
-                                                <div class="services-two__img">
-                                                <Image src={enzyme_7}/>
-                                                </div>
-                                             </div>
-                                             <div class="services-two__content">
-                                                <h3 class="services-two__title"style={{width:'120%',fontSize:'25px'}}>ECO GLASS CLEANER</h3>
-                                                <p class="services-two__text">SPARKLING SHINE.</p>
-                                             </div>
-                                          </div>
-                                    </div>
                                  </div>
                               </div>
                            </>
