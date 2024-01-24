@@ -9,16 +9,16 @@ const footer_contact = {
     bg_img: "assets/img/footer/footer-bg.jpg",
     footer_info: <>The world’s first and largest digital marketplace <br />for crypto collectibles and non-fungible tokens (NFTs). Buy</>,
     map_link: "https://www.google.com/maps/search/86+Road+Broklyn+Street,+600+New+York,+USA/@40.6897806,-74.0278086,12z/data=!3m1!4b1",
-    address: <>86 Road Broklyn Street, 600 <br /> New York, USA</>,
-    mail: "needhelp@company.com",
-    phone: "+92 666 888 0000",
+    address: <>27428, DUBAI UAE</>,
+    mail: "info@avonimpex.com",
+    phone: "+971-54-756-3743",
     service_links: [
-        {title: "Parking permission", link: "#"},
-        {title: "Fire Service Noc", link: "#"},
-        {title: "Report a Parking Violation", link: "#"},
-        {title: "Residential Parking", link: "#"},
-        {title: "Vendor Registration", link: "#"},
-        {title: "City Board Applications", link: "#"},
+        {title: "Home", link: "/"},
+        {title: "About", link: "/about"},
+        {title: "Products", link: "/service-details"},
+        {title: "Contact-US", link: "/contact"},
+        // {title: "Vendor Registration", link: "#"},
+        // {title: "City Board Applications", link: "#"},
     ]
 }
 const {bg_img, footer_info, map_link, address, mail, phone, service_links} = footer_contact
@@ -57,7 +57,7 @@ const FooterThree = () => {
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div className="tp-footer-widget tp-footer-3-col-2">
-                                <h3 className="tp-footer-widget-title">Services Req</h3>
+                                <h3 className="tp-footer-widget-title">Quick links</h3>
                                 <div className="tp-footer-widget-content">
                                     <ul>
                                         {service_links.map((item, i) => <li key={i}><Link href={item.link}>{item.title}</Link></li>)} 

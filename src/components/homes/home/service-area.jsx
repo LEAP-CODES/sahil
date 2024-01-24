@@ -21,14 +21,14 @@ import reload_img from "@assets/img/fun-fact/world.png";
 
 
   const counter_content = [
-   {
-      id: 1, 
-      count: 10,
-      info: "Experience",
-      cls: "",
-      cls_2: "purecounter",
-      icon: "+",
-   },
+   // {
+   //    id: 1, 
+   //    count: 10,
+   //    info: "Experience",
+   //    cls: "",
+   //    cls_2: "purecounter",
+   //    icon: "+",
+   // },
    // {
    //    id: 2, 
    //    count: 255,

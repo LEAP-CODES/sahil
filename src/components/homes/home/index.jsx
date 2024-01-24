@@ -10,7 +10,7 @@ import TestimonialArea from "./testimonial-area";
 import SliderArea from "./slider-area";
 import FaqArea from "./faq-area";
 // import BlogArea from "./blog-area";
-import Footer from "@/src/layout/footers/footer";
+import Footer from "@/src/layout/footers/footer-3";
 
 const HomeOne = () => {
   return (
@@ -22,7 +22,7 @@ const HomeOne = () => {
         <FeatureArea />
         <ServiceArea />
         <BrandArea />
-        <SupportArea />
+        {/* <SupportArea /> */}
         {/* <TestimonialArea /> */}
         {/* <SliderArea /> */}
         {/* <FaqArea /> */}

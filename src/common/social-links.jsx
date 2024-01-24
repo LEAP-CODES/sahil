@@ -7,21 +7,21 @@ const social_links = [
     target: "_blank",
     icon: "fab fa-facebook-f", 
   },
-  {
-    link: "http://twitter.com",
-    target: "_blank",
-    icon: "fab fa-twitter", 
-  },
+  // {
+  //   link: "http://twitter.com",
+  //   target: "_blank",
+  //   icon: "fab fa-twitter", 
+  // },
   {
     link: "https://www.instagram.com",
     target: "_blank",
-    icon: "fa-brands fa-instagram", 
+    icon: "fa-brands fa-linkedin", 
   }, 
-  {
-    link: "https://www.pinterest.com",
-    target: "_blank",
-    icon: "fa-brands fa-pinterest", 
-  },
+  // {
+  //   link: "https://www.pinterest.com",
+  //   target: "_blank",
+  //   icon: "fa-brands fa-pinterest", 
+  // },
 ];
 
 const SocialLinks = () => {
@@ -49,7 +49,7 @@ export default SocialLinks;
 
 
 const copy_right_text = {
-  copy_right: <>© Copyright <span>©{new Date().getFullYear()}</span> Themepure. All Rights Reserved </>,
+  copy_right: <>© Copyright <span>©{new Date().getFullYear()}</span>All Rights Reserved To Avionmex </>,
 }
 const {copy_right}  = copy_right_text
 
@@ -71,21 +71,21 @@ const social_links_two = [
     target: "_blank",
     icon: "fab fa-facebook-f", 
   },
-  {
-    link: "http://twitter.com",
-    target: "_blank",
-    icon: "fab fa-twitter",  
-  },
+  // {
+  //   link: "http://twitter.com",
+  //   target: "_blank",
+  //   icon: "fab fa-twitter",  
+  // },
   {
     link: "https://www.linkedin.com",
     target: "_blank",
     icon: "fab fa-linkedin-in", 
   }, 
-  {
-    link: "https://www.youtube.com",
-    target: "_blank",
-    icon: "fab fa-youtube",  
-},
+//   {
+//     link: "https://www.youtube.com",
+//     target: "_blank",
+//     icon: "fab fa-youtube",  
+// },
 
 ];
  
