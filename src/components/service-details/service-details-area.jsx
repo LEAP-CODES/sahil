@@ -1,13 +1,24 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import React, { useState } from 'react';
-import VideoPopup from '@/src/modals/video-popup';
-import ServiceContactForm from '@/src/forms/service-contact-form';
-import service_details_thumb from "@assets/img/services/service-details/img-1.jpg";
-import service_video_thumb from "@assets/img/services/service-details/img-2.jpg";
-import RightSymbol from '@/src/svg/right-symbol';
-import accordion from '@/src/data/accordion';
+// import VideoPopup from '@/src/modals/video-popup';
+// import ServiceContactForm from '@/src/forms/service-contact-form';
+// import service_details_thumb from "@assets/img/services/service-details/img-1.jpg";
+// import service_video_thumb from "@assets/img/services/service-details/img-2.jpg";
+// import RightSymbol from '@/src/svg/right-symbol';
+// import accordion from '@/src/data/accordion';
 import test from '@assets/img/services/test.jpg';
+import enzyme_1 from '@assets/img/services/enzyme/1.png';
+import enzyme_2 from '@assets/img/services/enzyme/2.png';
+import enzyme_3 from '@assets/img/services/enzyme/3.png';
+import enzyme_4 from '@assets/img/services/enzyme/4.png';
+import enzyme_5 from '@assets/img/services/enzyme/5.png';
+import enzyme_6 from '@assets/img/services/enzyme/6.png';
+import enzyme_7 from '@assets/img/services/enzyme/7.png';
+import enzyme_8 from '@assets/img/services/enzyme/8.png';
+import enzyme_9 from '@assets/img/services/enzyme/9.png';
+import enzyme_10 from '@assets/img/services/enzyme/10.png';
+import enzyme_11 from '@assets/img/services/enzyme/11.png';
 
 const service_details_content = {
    service_details_tab: [
@@ -84,7 +95,7 @@ const ServiceDetailsArea = () => {
                      <div className="tp-service-details-wrapper">
                         {activeTab === 1 && (
                            <>
-                              <h3>Enzyme Based Green chemicals</h3>
+                              <h3 style={{textAlign:'center'}}>Enzyme Based Green chemicals</h3>
                               <p>Enzyme-based cleaners are derived from natural sources, making them a
                                  sustainable choice for eco-conscious individuals. Unlike harsh chemical
                                  cleaners, enzyme-based alternatives are biodegradable and non-toxic,
@@ -96,12 +107,12 @@ const ServiceDetailsArea = () => {
                                        <div class="services-two__single">
                                              <div class="services-two__img-box">
                                                 <div class="services-two__img">
-                                                   <Image src={test}/>
+                                                   <Image src={enzyme_1}/>
                                                 </div>
                                              </div>
                                              <div class="services-two__content">
                                                 {/* <p class="services-two__sub-title">Austry</p> */}
-                                                <h3 class="services-two__title" style={{width:'120%'}}>MULTI-PURPOSE ECO CLEANER</h3>
+                                                <h3 class="services-two__title" style={{width:'120%', fontSize:'25px'}}>MULTI-PURPOSE ECO CLEANER</h3>
                                                 <p class="services-two__text">DISINFECTANT & ANTISEPTIC</p>
                                              </div>
                                        </div>
@@ -112,14 +123,13 @@ const ServiceDetailsArea = () => {
                                           <div class="services-two__single">
                                              <div class="services-two__img-box">
                                                 <div class="services-two__img">
-                                                <Image src={test}/>
+                                                <Image src={enzyme_2}/>
                                                 </div>
                                              </div>
                                              <div class="services-two__content">
                                                 
-                                                <h3 class="services-two__title" style={{width:'120%'}}>For Industries</h3>
-                                                <p class="services-two__text">Lorem ipsum dolor sit amet
-                                                      cons ectetur elit sed.</p>
+                                                <h3 class="services-two__title" style={{width:'120%',fontSize:'25px'}}>TOILET & BATHROOM CLEANER</h3>
+                                                <p class="services-two__text">CLEAN, SANITISE & DEODORISE.</p>
                                                 
                                              </div>
                                           </div>
@@ -130,13 +140,12 @@ const ServiceDetailsArea = () => {
                                           <div class="services-two__single">
                                              <div class="services-two__img-box">
                                                 <div class="services-two__img">
-                                                <Image src={test}/>
+                                                <Image src={enzyme_3}/>
                                                 </div>
                                              </div>
                                              <div class="services-two__content">
-                                                <h3 class="services-two__title"style={{width:'120%'}}>For Residence</h3>
-                                                <p class="services-two__text">Lorem ipsum dolor sit amet
-                                                      cons ectetur elit sed.</p>
+                                                <h3 class="services-two__title"style={{width:'120%',fontSize:'25px'}}>GUM REMOVER</h3>
+                                                <p class="services-two__text">GUM & ADHESIVE STAIN REMOVER.</p>
                                              </div>
                                           </div>
                                     </div>
@@ -147,13 +156,12 @@ const ServiceDetailsArea = () => {
                                           <div class="services-two__single">
                                              <div class="services-two__img-box">
                                                 <div class="services-two__img">
-                                                <Image src={test}/>
+                                                <Image src={enzyme_4}/>
                                                 </div>
                                              </div>
                                              <div class="services-two__content">
-                                                <h3 class="services-two__title"style={{width:'120%'}}>Eco Systems</h3>
-                                                <p class="services-two__text">Lorem ipsum dolor sit amet
-                                                      cons ectetur elit sed.</p>
+                                                <h3 class="services-two__title"style={{width:'120%',fontSize:'25px'}}>LAUNDRY LIQUID</h3>
+                                                <p class="services-two__text">BIO-DEGRADABLE LAUNDRY DETERGENT.</p>
                                              </div>
                                           </div>
                                     </div>
@@ -163,12 +171,11 @@ const ServiceDetailsArea = () => {
                                           <div class="services-two__single">
                                              <div class="services-two__img-box">
                                                 <div class="services-two__img">
-                                                <Image src={test}/>
+                                                <Image src={enzyme_5}/>
                                                 </div>
                                                 <div class="services-two__content">
-                                                   <h3 class="services-two__title" style={{width:'120%'}}>Panel Service</h3>
-                                                   <p class="services-two__text">Lorem ipsum dolor sit amet
-                                                         cons ectetur elit sed.</p>
+                                                   <h3 class="services-two__title" style={{width:'120%',fontSize:'25px'}}>DISH WASH LIQUID</h3>
+                                                   <p class="services-two__text">BIO-DEGRADABLE • PHOSPHATE FREE.</p>
                                                 </div>
                                              </div>
                                           </div>
@@ -179,13 +186,12 @@ const ServiceDetailsArea = () => {
                                           <div class="services-two__single">
                                              <div class="services-two__img-box">
                                                 <div class="services-two__img">
-                                                <Image src={test}/>
+                                                <Image src={enzyme_6}/>
                                                 </div>
                                              </div>
                                              <div class="services-two__content">
-                                                <h3 class="services-two__title" style={{width:'120%'}}>Maintenance</h3>
-                                                <p class="services-two__text">Lorem ipsum dolor sit amet
-                                                      cons ectetur elit sed.</p>
+                                                <h3 class="services-two__title" style={{width:'120%',fontSize:'25px'}}>CARPET STAIN REMOVER</h3>
+                                                <p class="services-two__text">BIO-DEGRADABLE STAIN REMOVER.</p>
                                              </div>
                                           </div>
                                     </div>
@@ -195,17 +201,81 @@ const ServiceDetailsArea = () => {
                                           <div class="services-two__single">
                                              <div class="services-two__img-box">
                                                 <div class="services-two__img">
-                                                <Image src={test}/>
+                                                <Image src={enzyme_7}/>
                                                 </div>
                                              </div>
                                              <div class="services-two__content">
-                                                <h3 class="services-two__title"style={{width:'120%'}}>Monitoring</h3>
-                                                <p class="services-two__text">Lorem ipsum dolor sit amet
-                                                      cons ectetur elit sed.</p>
+                                                <h3 class="services-two__title"style={{width:'120%',fontSize:'25px'}}>ECO GLASS CLEANER</h3>
+                                                <p class="services-two__text">SPARKLING SHINE.</p>
                                              </div>
                                           </div>
                                     </div>
                                     {/* <!--Services Two Single Start--> */}
+                                    <div class="col-xl-3 col-lg-6 col-md-6">
+                                          <div class="services-two__single">
+                                             <div class="services-two__img-box">
+                                                <div class="services-two__img">
+                                                <Image src={enzyme_8}/>
+                                                </div>
+                                             </div>
+                                             <div class="services-two__content">
+                                                <h3 class="services-two__title"style={{width:'120%',fontSize:'25px'}}>HARD SURFACE CLEANER</h3>
+                                                <p class="services-two__text">CONCENTRATE • ALL ROUND CLEANER.</p>
+                                             </div>
+                                          </div>
+                                    </div>
+                                    <div class="col-xl-3 col-lg-6 col-md-6">
+                                          <div class="services-two__single">
+                                             <div class="services-two__img-box">
+                                                <div class="services-two__img">
+                                                <Image src={enzyme_9}/>
+                                                </div>
+                                             </div>
+                                             <div class="services-two__content">
+                                                <h3 class="services-two__title"style={{width:'120%',fontSize:'25px'}}>BIO HANDWASH</h3>
+                                                <p class="services-two__text">NATURAL GERM PROTECTION.</p>
+                                             </div>
+                                          </div>
+                                    </div>
+                                    <div class="col-xl-3 col-lg-6 col-md-6">
+                                          <div class="services-two__single">
+                                             <div class="services-two__img-box">
+                                                <div class="services-two__img">
+                                                <Image src={enzyme_10}/>
+                                                </div>
+                                             </div>
+                                             <div class="services-two__content">
+                                                <h3 class="services-two__title"style={{width:'120%',fontSize:'25px'}}>CARPET SHAMPOO</h3>
+                                                <p class="services-two__text">EASY STAIN RELEASE.</p>
+                                             </div>
+                                          </div>
+                                    </div>
+                                    <div class="col-xl-3 col-lg-6 col-md-6">
+                                          <div class="services-two__single">
+                                             <div class="services-two__img-box">
+                                                <div class="services-two__img">
+                                                <Image src={enzyme_11}/>
+                                                </div>
+                                             </div>
+                                             <div class="services-two__content">
+                                                <h3 class="services-two__title"style={{width:'120%',fontSize:'25px'}}>ODOUR NEUTRALIZER</h3>
+                                                <p class="services-two__text">DISINFECTANT & ANTISEPTIC.</p>
+                                             </div>
+                                          </div>
+                                    </div>
+                                    <div class="col-xl-3 col-lg-6 col-md-6">
+                                          <div class="services-two__single">
+                                             <div class="services-two__img-box">
+                                                <div class="services-two__img">
+                                                <Image src={enzyme_7}/>
+                                                </div>
+                                             </div>
+                                             <div class="services-two__content">
+                                                <h3 class="services-two__title"style={{width:'120%',fontSize:'25px'}}>ECO GLASS CLEANER</h3>
+                                                <p class="services-two__text">SPARKLING SHINE.</p>
+                                             </div>
+                                          </div>
+                                    </div>
                                  </div>
                               </div>
                            </>
