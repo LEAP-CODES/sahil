@@ -303,7 +303,7 @@ const ServiceDetailsArea = () => {
                               {/* <p>{description_3}</p> */}
                            </>
                         )}
-                        {activeTab === 6 && (
+                        {activeTab === 8 && (
                            <>
                               <h3>Professional Hygeine and Health solution</h3>
                               {/* <p>{description_3}</p> */}
